@@ -1,12 +1,32 @@
-# React + Vite
+# 🎓 MyClass360
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MyClass360** es una aplicación web en desarrollo con **React** que permite a los profesores gestionar a sus alumnos, planificar el contenido diario de las clases y realizar un seguimiento académico completo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ [React](https://reactjs.org/) – Interfaz de usuario
+- 🛠️ [Vite](https://vitejs.dev/) – Bundler ultrarrápido para desarrollo
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Framework de estilos utilitarios
+- 🧠 [Spring Boot](https://github.com/Sergiomsrs/MyClass360-api) – Backend 
+- 🐘 PostgreSQL / MySQL – Base de datos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 Funcionalidades
+
+### 👨‍🏫 Profesores
+- Crear, editar y eliminar alumnos.
+- Registrar el contenido impartido por día y por asignatura.
+- Añadir notas internas o comentarios para cada clase o alumno.
+- Ver historial de clases impartidas.
+
+### 👨‍🎓 Alumnos
+- Ficha individual con información académica.
+- Seguimiento del progreso por materia.
+- Visualización (solo lectura) del contenido impartido y notas relevantes.
+
+### 👨‍👩‍👦 Padres / Tutores *(en futura versión)*
+- Acceso limitado a la información del alumno.
+- Visualización de contenido impartido y observaciones generales.
